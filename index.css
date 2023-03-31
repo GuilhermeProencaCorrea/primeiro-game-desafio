@@ -1,0 +1,14 @@
+canvas{
+    border:3px solid #000000;
+    background:radial-gradient(red, green, blue);
+    background: radial-gradient();
+    background-color: #d91919;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 340px;
+}
+
