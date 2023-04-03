@@ -1,11 +1,6 @@
 const personagem = document.querySelector('.personagem');
 const cacto = document.querySelector('.cacto');
 const score = document.querySelector(".score");
-
-function myt(){
-const audio = document.querySelector('audio')
-audio.play()
-}
 let conte = 0; 
 
 const pulo = () => {
