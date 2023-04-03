@@ -1,4 +1,4 @@
-const personagem = document.querySelector('.personagem');
+{const personagem = document.querySelector('.personagem');
 const cacto = document.querySelector('.cacto');
 const score = document.querySelector(".score");
 let conte = 0; 
@@ -54,6 +54,6 @@ document.addEventListener('keydown', pulo)
 const bRestart = document.querySelector("#restart")
 bRestart.addEventListener('click',() => {
     location.reload()
-});
+});}
 
 
