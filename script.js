@@ -1,6 +1,6 @@
-const personagem = document.querySelector('.personagem');
-const cacto = document.querySelector('.cacto');
-const score = document.querySelector(".score");
+const personagem = document.querySelector ('.personagem');
+const cacto = document.querySelector ('.cacto');
+const score = document.querySelector (".score");
 let conte = 0; 
 
 const pulo = () => {
@@ -33,9 +33,11 @@ const loop = setInterval(() => {
         personagem.style.marginheith = '22px'
         
         clearInterval(loop);
+        
+        
     }
     //pontuação
-    conte++;
+    conte++
     score.innerHTML = `score: ${conte}`;
     
 
@@ -43,7 +45,7 @@ const loop = setInterval(() => {
 },10);
 
 //evento de pulo, ao pressionar qualquer tecla para baixo o personagem executa um pulo.
-document.addEventListener('keydown', pulo)
+document.addEventListener('keydown', pulo,)
 
 //restart da página
 const bRestart = document.querySelector("#restart")
