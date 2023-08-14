@@ -1,3 +1,3 @@
-# GameDesafio1
- Criando um jogo desafio da Unifaa
+# Game Desafio 1
+ Criando um jogo - Unifaa
 
